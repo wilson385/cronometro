@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Nova+Round&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background: url(assets/laranja.jpg) no-repeat top center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.caixa1 {
+    margin-bottom: 2rem;
+}
+
+h1 {
+   
+    font-size: 60px;
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.caixaButtons {
+    padding: 12px;
+    display: flex;
+    gap: 1rem;
+}
+
+button {
+    width: 110px;
+    cursor: pointer;
+    color: #0a0501;
+    font-size: 25px;
+    padding: 4px;
+    border-radius: 8px;
+    border: 2px solid rgb(31, 31, 56);
+    
+}
+
+button:hover {
+background-color: aquamarine;
+}
+
+
